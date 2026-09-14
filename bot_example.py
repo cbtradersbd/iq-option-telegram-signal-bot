@@ -1,7 +1,7 @@
 # IQ Option Telegram Signal Dispatcher
 import requests
 
-API_URL = "https://api1.api.cbtraderbd.xyz/docs"
+API_URL = "https://api1.api.cbtradersbd.com/docs"
 
 def send_alert(signal):
     print(f"🚀 [SIGNAL ALERT] Pair: {signal['pair']} | Direction: {signal['direction']} | Expiry: {signal['expiry']}")
